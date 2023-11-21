@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Htmx Extensions</title>
+    <link rel="stylesheet" href="{% static "css/pico.min.css" %}">
+</head>
+<body>
+    <header class="container">
+        <hgroup>
+            <h1>Htmx Extensions</h1>
+            <h2>A registry of htmx extensions, both official and third-party.</h2>
+            <p>Add a new extension my making a pull request to the <a href="https://github.com/tobi-de/htmx-extensions">github repository</a></p>
+        </hgroup>
+    </header>
+    <main class="container">
+    {% block content %}{% endblock content%}
+    </main>
+</body>
+</html>

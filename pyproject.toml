@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "htmx-extensions"
+version = "0.1.0"
+description = "A registry of htmx extensions, both official and third-party."
+authors = ["Tobi DEGNON <tobidegnon@proton.me>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+coltrane = "^0.25.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

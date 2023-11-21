@@ -10,9 +10,9 @@
     </tr>
   </thead>
   <tbody>
-  {% for ext in data.extensions %}
+  {% for name, ext in data.extensions.items %}
     <tr>
-      <td scope="row">{{ext.name}}</t>
+      <td scope="row">{{name}}</t>
       <td scope="row">{{ext.description}}</td>
       <td scope="row"><a href="{{ext.repo_url}}">{{ext.repo_url}}</a></td>
       <td scope="row">

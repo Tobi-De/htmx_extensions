@@ -6,7 +6,6 @@ from coltrane import initialize, DEFAULT_INSTALLED_APPS
 
 wsgi = initialize(
     **{
-        "ROOT_URLCONF": "htmx_extensions.urls",
         "INSTALLED_APPS": ["htmx_extensions"] + DEFAULT_INSTALLED_APPS,
     }
 )

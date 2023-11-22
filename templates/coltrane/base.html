@@ -36,7 +36,25 @@
     <footer>
         &copy; 2023 Tobi DEGNON| <a href="https://oluwatobi.dev">oluwatobi.dev</a>
     </footer>
-
+    
+    <script>
+        const download_file = (url) => {
+            let extensionName = url.split('/').pop();
+            fetch(url)
+                .then(resp => resp.blob())
+                .then(blob => {
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.style.display = 'none';
+                    a.href = url;
+                    a.download = extensionName
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                })
+                .catch(() => alert('oh no!'));
+        }
+    </script>
 </body>
 
 </html>

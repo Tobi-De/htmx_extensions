@@ -24,7 +24,7 @@
         {% endif %}
       </td>
       <td scope="row">
-         <a href="{{ext.download_url}}" role="button" class="outline">Download</a>
+         <a href="#" onclick="download_file('{{ext.download_url}}')" role="button">Download</a>
       </td>
     </tr>
   {% endfor %}
@@ -38,3 +38,4 @@
     </tr>
   </tfoot>
 </table>
+

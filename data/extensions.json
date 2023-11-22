@@ -29,12 +29,6 @@
         "repo_url": "https://github.com/bigskysoftware/htmx",
         "is_official": true
     },
-    "disable-element": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/disable-element.js",
-        "description": "",
-        "repo_url": "https://github.com/bigskysoftware/htmx",
-        "is_official": true
-    },
     "event-header": {
         "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/event-header.js",
         "description": "Includes a JSON serialized version of the triggering event, if any.",
@@ -98,12 +92,6 @@
     "preload": {
         "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/preload.js",
         "description": "Preloads selected href and hx-get targets based on rules you control.",
-        "repo_url": "https://github.com/bigskysoftware/htmx",
-        "is_official": true
-    },
-    "rails-method": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/rails-method.js",
-        "description": "",
         "repo_url": "https://github.com/bigskysoftware/htmx",
         "is_official": true
     },

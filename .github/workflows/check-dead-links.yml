@@ -1,0 +1,22 @@
+name: Check Dead Links
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 12 * * 0"
+
+jobs:
+  check-links:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: "Set up Python"
+        uses: actions/setup-python@v3
+        with:
+          python-version: "3.x"
+
+      - name: Check dead links
+        run: python dead_links.py

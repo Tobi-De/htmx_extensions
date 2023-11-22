@@ -1,23 +1,42 @@
 {% load static %}
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Htmx Extensions</title>
-    <link rel="stylesheet" href="{% static "css/pico.min.css" %}">
+    <link rel="stylesheet" href="{% static 'css/mvp.css' %}">
+    <style>
+         td div.pos {
+      color: green;
+      width: 20px;
+    }
+
+    td div.neg {
+      color: red;
+      width: 20px;
+    }
+    </style>
 </head>
+
 <body>
-    <header class="container">
-        <hgroup>
-            <h1>Htmx Extensions</h1>
-            <h2>A registry of htmx extensions, both official and third-party.</h2>
-            <p>Add a new extension my making a pull request to the <a href="https://github.com/Tobi-De/htmx_extensions/blob/main/data/extensions.json">github repository</a></p>
-            <p>A json view of the data can be found <a href="/extensions.json">here</a></p>
-        </hgroup>
+    <header>
+        <h1>Htmx Extensions</h1>
+        <h2>A registry of htmx extensions, both official and third-party.</h2>
+        <p>Add a new extension by making a pull request to the <a
+                href="https://github.com/Tobi-De/htmx_extensions/blob/main/data/extensions.json">github repository</a>
+        </p>
+        <p>A json view of the data can be found <a href="/extensions.json">here</a></p>
     </header>
-    <main class="container">
-    {% block content %}{% endblock content%}
+    <main>
+        {% block content %}{% endblock content%}
     </main>
+
+    <footer>
+        &copy; 2023 Tobi DEGNON| <a href="https://oluwatobi.dev">oluwatobi.dev</a>
+    </footer>
+
 </body>
+
 </html>

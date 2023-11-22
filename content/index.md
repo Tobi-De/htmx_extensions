@@ -10,7 +10,7 @@
   <tbody>
   {% for name, ext in data.extensions.items %}
     <tr>
-      <td scope="row"><a href="{{ext.repo_url}}">{{name}}<a></td>
+      <td scope="row"><a href="{{ext.doc_url}}">{{name}}<a></td>
       <td scope="row">{{ext.description}}</td>
       <td scope="row">
       {% if ext.is_official is True %}

@@ -119,7 +119,7 @@
         "doc_url": "https://htmx.org/extensions/server-sent-events/",
         "is_official": true
     },
-    "ws": {
+    "web-sockets": {
         "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/ws.js",
         "description": "Bi-directional connection to WebSocket servers.",
         "doc_url": "https://htmx.org/extensions/web-sockets/",

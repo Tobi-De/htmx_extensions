@@ -8,7 +8,7 @@ readme = "README.md"
 
 [tool.poetry.dependencies]
 python = "^3.10"
-coltrane = "^0.25.0"
+coltrane = "^0.31.0"
 
 
 [build-system]

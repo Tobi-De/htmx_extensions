@@ -1,0 +1,477 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Htmx Extensions</title>
+    <!-- <link rel="stylesheet" href="/static/css/mvp.css">
+    <style>
+         td div.pos {
+      color: green;
+      width: 20px;
+    }
+
+    td div.neg {
+      color: red;
+      width: 20px;
+    }
+    </style> -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+/>
+</head>
+
+<body>
+    <header class="container">
+        <h1>Htmx Extensions</h1>
+        <h2>A registry of htmx extensions, both official and third-party.</h2>
+        <p>Add a new extension by making a pull request to the <a
+                href="https://github.com/Tobi-De/htmx_extensions/blob/main/data/extensions.json">github repository</a>
+        </p>
+        <p>A json view of the data can be found <a href="/extensions.json">here</a></p>
+    </header>
+    <main class="container">
+        
+<p><table role="grid">
+<thead>
+<tr>
+<th scope="col">Name</th>
+<th scope="col">Description</th>
+<th scope="col">Official</th>
+<th scope="col">Download</th>
+</tr>
+</thead>
+<tbody>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/ajax-header/">ajax-header<a></a></a></td>
+<td scope="row">Includes the commonly-used X-Requested-With header that identifies ajax requests in many backend frameworks.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/ajax-header.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/alpine-morph/">alpine-morph<a></a></a></td>
+<td scope="row">An extension for using the Alpine.js morph plugin as the swapping mechanism in htmx.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/alpine-morph.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/class-tools/">class-tools<a></a></a></td>
+<td scope="row">An extension for manipulating timed addition and removal of classes on HTML elements.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/class-tools.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/client-side-templates/">client-side-templates<a></a></a></td>
+<td scope="row">Support for client side template processing of JSON/XML responses.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/client-side-templates.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/debug/">debug<a></a></a></td>
+<td scope="row">An extension for debugging of a particular element using htmx.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/debug.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/event-header/">event-header<a></a></a></td>
+<td scope="row">Includes a JSON serialized version of the triggering event, if any.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/event-header.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/head-support/">head-support<a></a></a></td>
+<td scope="row">Support for merging the head tag from responses into the existing documents head.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/head-support.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/include-vals/">include-vals<a></a></a></td>
+<td scope="row">Allows you to include additional values in a request.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/include-vals.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/json-enc/">json-enc<a></a></a></td>
+<td scope="row">Use JSON encoding in the body of requests, rather than the default x-www-form-urlencoded.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/json-enc.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/loading-states/">loading-states<a></a></a></td>
+<td scope="row">Allows you to disable inputs, add and remove CSS classes to any element while a request is in-flight.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/loading-states.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/method-override/">method-override<a></a></a></td>
+<td scope="row">Use the X-HTTP-Method-Override header for non-GET and POST requests.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/method-override.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/morphdom-swap/">morphdom-swap<a></a></a></td>
+<td scope="row">An extension for using the morphdom library as the swapping mechanism in htmx.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/morphdom-swap.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://github.com/bigskysoftware/idiomorph#htmx">idiomorph<a></a></a></td>
+<td scope="row">An extension for using the morphdom library as the swapping mechanism in htmx.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/idiomorph/dist/idiomorph-ext.min.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/multi-swap/">multi-swap<a></a></a></td>
+<td scope="row">Allows to swap multiple elements with different swap methods.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/multi-swap.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/path-deps/">path-deps<a></a></a></td>
+<td scope="row">An extension for expressing path-based dependencies similar to intercoolerjs.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/path-deps.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/preload/">preload<a></a></a></td>
+<td scope="row">Preloads selected href and hx-get targets based on rules you control.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/preload.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/remove-me/">remove-me<a></a></a></td>
+<td scope="row">Allows you to remove an element after a given amount of time</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/remove-me.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/response-targets/">response-targets<a></a></a></td>
+<td scope="row">Allows to specify different target elements to be swapped when different HTTP response codes are received.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/response-targets.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/restored/">restored<a></a></a></td>
+<td scope="row">Allows you to trigger events when the back button has been pressed.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/restored.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/server-sent-events/">sse<a></a></a></td>
+<td scope="row">Uni-directional server push messaging via EventSource.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/sse.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://htmx.org/extensions/web-sockets/">web-sockets<a></a></a></td>
+<td scope="row">Bi-directional connection to WebSocket servers.</td>
+<td scope="row">
+      
+        <div class="pos">
+<img src="/static/svg/check.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://unpkg.com/htmx.org@latest/dist/ext/ws.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://github.com/oriol-martinez/hx-take">hx-take<a></a></a></td>
+<td scope="row">An htmx extension that allows to select and swap existing elements.</td>
+<td scope="row">
+      
+        <div class="neg">
+<img src="/static/svg/x.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://raw.githubusercontent.com/oriol-martinez/hx-take/main/dist/hx-take.min.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://github.com/KatrinaKitten/htmx-template">htmx-template<a></a></a></td>
+<td scope="row">HTMX extension enabling it to retrieve the contents of &lt;template&gt; elements rather than make an HTTP request .</td>
+<td scope="row">
+      
+        <div class="neg">
+<img src="/static/svg/x.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://raw.githubusercontent.com/KatrinaKitten/htmx-template/master/htmx-template.min.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://github.com/bkuhlmann/htmx-remove">htmx-remove<a></a></a></td>
+<td scope="row">Extends htmx with DOM element click event removal.</td>
+<td scope="row">
+      
+        <div class="neg">
+<img src="/static/svg/x.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://raw.githubusercontent.com/bkuhlmann/htmx-remove/main/build/htmx-remove.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://github.com/benopotamus/htmx-ext-shoelace">htmx-ext-shoelace<a></a></a></td>
+<td scope="row">An extension to make Shoelace elements work seamlessly (as possible) with htmx.</td>
+<td scope="row">
+      
+        <div class="neg">
+<img src="/static/svg/x.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://raw.githubusercontent.com/benopotamus/htmx-ext-shoelace/main/htmx.ext.shoelace.js')" role="button">Download</a>
+</td>
+</tr>
+  
+    <tr>
+<td scope="row"><a href="https://github.com/bufferhead-code/htmx-ai">htmx-ai<a></a></a></td>
+<td scope="row">HTMX-AI allows you to create AI generated webdesign by just providing a prompt via the hx-ai attribute.</td>
+<td scope="row">
+      
+        <div class="neg">
+<img src="/static/svg/x.svg"/>
+</div>
+        
+      </td>
+<td scope="row">
+<a href="#" onclick="download_file('https://raw.githubusercontent.com/bufferhead-code/htmx-ai/main/htmx-ai.js')" role="button">Download</a>
+</td>
+</tr>
+  
+  </tbody>
+<tfoot>
+<tr>
+<th scope="col">Name</th>
+<th scope="col">Description</th>
+<th scope="col">Official</th>
+<th scope="col">Download</th>
+</tr>
+</tfoot>
+</table></p>
+
+
+    </main>
+
+    <footer class="container">
+        &copy; 2023 -2024 Tobi DEGNON| <a href="https://oluwatobi.dev">oluwatobi.dev</a>
+    </footer>
+    
+    <script>
+        const download_file = (url) => {
+            let extensionName = url.split('/').pop();
+            fetch(url)
+                .then(resp => resp.blob())
+                .then(blob => {
+                    const url = window.URL.createObjectURL(blob);
+                    const a = document.createElement('a');
+                    a.style.display = 'none';
+                    a.href = url;
+                    a.download = extensionName
+                    document.body.appendChild(a);
+                    a.click();
+                    window.URL.revokeObjectURL(url);
+                })
+                .catch(() => alert('oh no!'));
+        }
+    </script>
+</body>
+
+</html>

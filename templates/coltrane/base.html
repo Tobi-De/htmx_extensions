@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Htmx Extensions</title>
-    <link rel="stylesheet" href="{% static 'css/mvp.css' %}">
+    <!-- <link rel="stylesheet" href="{% static 'css/mvp.css' %}">
     <style>
          td div.pos {
       color: green;
@@ -17,11 +17,15 @@
       color: red;
       width: 20px;
     }
-    </style>
+    </style> -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+/>
 </head>
 
 <body>
-    <header>
+    <header class="container">
         <h1>Htmx Extensions</h1>
         <h2>A registry of htmx extensions, both official and third-party.</h2>
         <p>Add a new extension by making a pull request to the <a
@@ -29,12 +33,12 @@
         </p>
         <p>A json view of the data can be found <a href="/extensions.json">here</a></p>
     </header>
-    <main>
+    <main class="container">
         {% block content %}{% endblock content%}
     </main>
 
-    <footer>
-        &copy; 2023 Tobi DEGNON| <a href="https://oluwatobi.dev">oluwatobi.dev</a>
+    <footer class="container">
+        &copy; 2023 -2024 Tobi DEGNON| <a href="https://oluwatobi.dev">oluwatobi.dev</a>
     </footer>
     
     <script>

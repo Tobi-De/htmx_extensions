@@ -148,5 +148,11 @@
         "description": "An extension to make Shoelace elements work seamlessly (as possible) with htmx.",
         "doc_url": "https://github.com/benopotamus/htmx-ext-shoelace",
         "is_official": false
+    },
+    "htmx-ai": {
+        "download_url": "https://raw.githubusercontent.com/bufferhead-code/htmx-ai/main/htmx-ai.js",
+        "description": "HTMX-AI allows you to create AI generated webdesign by just providing a prompt via the hx-ai attribute.",
+        "doc_url": "https://github.com/bufferhead-code/htmx-ai",
+        "is_official": false
     }
 }

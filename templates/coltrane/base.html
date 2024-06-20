@@ -31,7 +31,7 @@
 <body>
     <header class="container">
         <h1>Htmx Extensions</h1>
-        <h2>A registry of htmx extensions, both official and third-party.</h2>
+        <h2>A registry of htmx extensions, core and community.</h2>
         <p>Add a new extension by making a pull request to the <a
                 href="https://github.com/Tobi-De/htmx_extensions/blob/main/data/extensions.json">github repository</a>
         </p>
@@ -65,6 +65,20 @@
                 })
                 .catch(() => alert('oh no!'));
         }
+        document.getElementById('searchInput').addEventListener('keyup', function() {
+            var searchQuery = this.value.toLowerCase();
+            var tableRows = document.querySelectorAll('#extensionsTable tbody tr');
+          
+            tableRows.forEach(function(row) {
+              var nameCellText = row.cells[0].textContent.toLowerCase();
+              var descriptionCellText = row.cells[1].textContent.toLowerCase();
+              if (nameCellText.includes(searchQuery) || descriptionCellText.includes(searchQuery)) {
+                row.style.display = ''; // Show row
+              } else {
+                row.style.display = 'none'; // Hide row
+              }
+            });
+          });
     </script>
 </body>
 

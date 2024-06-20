@@ -1,9 +1,16 @@
-<table role="grid">
+<input
+  id="searchInput"
+  type="search"
+  name="search"
+  placeholder="Search"
+  aria-label="Search"
+/>
+<table role="grid" id="extensionsTable">
   <thead>
     <tr>
       <th scope="col">Name</th>
       <th scope="col">Description</th>
-      <th scope="col">Official</th>
+      <th scope="col">Core</th>
       <th scope="col">Download</th>
     </tr>
   </thead>

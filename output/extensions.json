@@ -1,75 +1,87 @@
 {
     "ajax-header": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/ajax-header.js",
+        "download_url": "https://unpkg.com/htmx-ext-ajax-header@2.0.1/ajax-header.js",
         "description": "Includes the commonly-used X-Requested-With header that identifies ajax requests in many backend frameworks.",
-        "doc_url": "https://htmx.org/extensions/ajax-header/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/ajax-header/README.md",
+        "is_official": false
     },
     "alpine-morph": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/alpine-morph.js",
+        "download_url": "https://unpkg.com/htmx-ext-alpine-morph@2.0.0/alpine-morph.js",
         "description": "An extension for using the Alpine.js morph plugin as the swapping mechanism in htmx.",
-        "doc_url": "https://htmx.org/extensions/alpine-morph/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/alpine-morph/README.md",
+        "is_official": false
     },
     "class-tools": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/class-tools.js",
+        "download_url": "https://unpkg.com/htmx-ext-class-tools@2.0.0/class-tools.js",
         "description": "An extension for manipulating timed addition and removal of classes on HTML elements.",
-        "doc_url": "https://htmx.org/extensions/class-tools/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/class-tools/README.md",
+        "is_official": false
     },
     "client-side-templates": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/client-side-templates.js",
+        "download_url": "https://unpkg.com/htmx-ext-client-side-templates@2.0.0/client-side-templates.js",
         "description": "Support for client side template processing of JSON/XML responses.",
-        "doc_url": "https://htmx.org/extensions/client-side-templates/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/client-side-templates/README.md",
+        "is_official": false
     },
     "debug": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/debug.js",
+        "download_url": "https://unpkg.com/htmx-ext-debug@2.0.0/debug.js",
         "description": "An extension for debugging of a particular element using htmx.",
-        "doc_url": "https://htmx.org/extensions/debug/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/debug/README.md",
+        "is_official": false
     },
     "event-header": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/event-header.js",
+        "download_url": "https://unpkg.com/htmx-ext-event-header@2.0.0/event-header.js",
         "description": "Includes a JSON serialized version of the triggering event, if any.",
-        "doc_url": "https://htmx.org/extensions/event-header/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/event-header/README.md",
+        "is_official": false
     },
     "head-support": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/head-support.js",
+        "download_url": "https://unpkg.com/htmx-ext-head-support@2.0.0/head-support.js",
         "description": "Support for merging the head tag from responses into the existing documents head.",
-        "doc_url": "https://htmx.org/extensions/head-support/",
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/head-support/README.md",
         "is_official": true
     },
     "include-vals": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/include-vals.js",
+        "download_url": "https://unpkg.com/htmx-ext-include-vals@2.0.0/include-vals.js",
         "description": "Allows you to include additional values in a request.",
-        "doc_url": "https://htmx.org/extensions/include-vals/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/include-vals/README.md",
+        "is_official": false
     },
     "json-enc": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/json-enc.js",
+        "download_url": "https://unpkg.com/htmx-ext-json-enc@2.0.0/json-enc.js",
         "description": "Use JSON encoding in the body of requests, rather than the default x-www-form-urlencoded.",
-        "doc_url": "https://htmx.org/extensions/json-enc/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/json-enc/README.md",
+        "is_official": false
+    },
+    "json-enc-custom": {
+        "download_url": "https://github.com/Emtyloc/json-enc-custom/blob/main/json-enc-custom.js",
+        "description": "This extension works similarly to json-enc but allows for very complex structures, such as embedding JSON objects, lists, or handling indexes, just by using the name attribute.",
+        "doc_url": "https://github.com/Emtyloc/json-enc-custom/blob/main/README.md",
+        "is_official": false
+    },
+    "replace-params": {
+        "download_url": "https://github.com/fanelfaa/htmx-ext-replace-params/blob/main/htmx-ext-replace-params.js",
+        "description": "This extension uses request parameters to replace existing parameters. If given value is empty string ('') then parameter will be deleted. This extension will be usefull in situation like pagination, search that you only want to replace only few params instead of all.",
+        "doc_url": "https://github.com/fanelfaa/htmx-ext-replace-params/blob/main/README.md",
+        "is_official": false
     },
     "loading-states": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/loading-states.js",
+        "download_url": "https://unpkg.com/htmx-ext-loading-states@2.0.0/loading-states.js",
         "description": "Allows you to disable inputs, add and remove CSS classes to any element while a request is in-flight.",
-        "doc_url": "https://htmx.org/extensions/loading-states/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/loading-states/README.md",
+        "is_official": false
     },
     "method-override": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/method-override.js",
+        "download_url": "https://unpkg.com/htmx-ext-method-override@2.0.0/method-override.js",
         "description": "Use the X-HTTP-Method-Override header for non-GET and POST requests.",
-        "doc_url": "https://htmx.org/extensions/method-override/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/method-override/README.md",
+        "is_official": false
     },
     "morphdom-swap": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/morphdom-swap.js",
+        "download_url": "https://unpkg.com/htmx-ext-morphdom-swap.js",
         "description": "An extension for using the morphdom library as the swapping mechanism in htmx.",
-        "doc_url": "https://htmx.org/extensions/morphdom-swap/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/morphdom-swap/README.md",
+        "is_official": false
     },
     "idiomorph": {
         "download_url": "https://unpkg.com/idiomorph/dist/idiomorph-ext.min.js",
@@ -77,52 +89,70 @@
         "doc_url": "https://github.com/bigskysoftware/idiomorph#htmx",
         "is_official": true
     },
-    "multi-swap": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/multi-swap.js",
-        "description": "Allows to swap multiple elements with different swap methods.",
-        "doc_url": "https://htmx.org/extensions/multi-swap/",
+    "htmx-1-compat": {
+        "download_url": "https://unpkg.com/htmx-ext-htmx-1-compat@2.0.0/htmx-1-compat.js",
+        "description": "Rolls back most of the behavioral changes of htmx 2 to the htmx 1 defaults. ",
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/htmx-1-compat/README.md",
         "is_official": true
+    },
+    "multi-swap": {
+        "download_url": "https://unpkg.com/htmx-ext-multi-swap@2.0.0/multi-swap.js",
+        "description": "Allows to swap multiple elements with different swap methods.",
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/multi-swap/README.md",
+        "is_official": false
     },
     "path-deps": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/path-deps.js",
+        "download_url": "https://unpkg.com/htmx-ext-path-deps@2.0.0/path-deps.js",
         "description": "An extension for expressing path-based dependencies similar to intercoolerjs.",
-        "doc_url": "https://htmx.org/extensions/path-deps/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/path-deps/README.md",
+        "is_official": false
+    },
+    "path-params": {
+        "download_url": "https://unpkg.com/htmx-ext-path-params@2.0.0/path-params.js",
+        "description": "This extension uses request parameters to populate path variables.",
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/path-params/README.md",
+        "is_official": false
     },
     "preload": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/preload.js",
+        "download_url": "https://unpkg.com/htmx-ext-preload.js",
         "description": "Preloads selected href and hx-get targets based on rules you control.",
-        "doc_url": "https://htmx.org/extensions/preload/",
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/preload/README.md",
         "is_official": true
     },
     "remove-me": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/remove-me.js",
+        "download_url": "https://unpkg.com/htmx-ext-remove-me@2.0.0/remove-me.js",
         "description": "Allows you to remove an element after a given amount of time",
-        "doc_url": "https://htmx.org/extensions/remove-me/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/remove-me/README.md",
+        "is_official": false
     },
     "response-targets": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/response-targets.js",
+        "download_url": "https://unpkg.com/htmx-ext-response-targets@2.0.0/response-targets.js",
         "description": "Allows to specify different target elements to be swapped when different HTTP response codes are received.",
-        "doc_url": "https://htmx.org/extensions/response-targets/",
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/response-targets/README.md",
         "is_official": true
     },
     "restored": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/restored.js",
+        "download_url": "https://unpkg.com/htmx-ext-restored@2.0.0/restored.js",
         "description": "Allows you to trigger events when the back button has been pressed.",
-        "doc_url": "https://htmx.org/extensions/restored/",
-        "is_official": true
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/restored/",
+        "is_official": false
     },
     "sse": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/sse.js",
+        "download_url": "https://unpkg.com/htmx-ext-sse@2.0.0/sse.js",
         "description": "Uni-directional server push messaging via EventSource.",
-        "doc_url": "https://htmx.org/extensions/server-sent-events/",
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/server-sent-events/",
         "is_official": true
     },
     "web-sockets": {
-        "download_url": "https://unpkg.com/htmx.org@latest/dist/ext/ws.js",
+        "download_url": "https://unpkg.com/htmx-ext-ws@2.0.0/ws.js",
         "description": "Bi-directional connection to WebSocket servers.",
-        "doc_url": "https://htmx.org/extensions/web-sockets/",
+        "doc_url": "https://github.com/bigskysoftware/htmx-extensions/blob/main/src/web-sockets/",
+        "is_official": true
+    },
+    "no-cache": {
+        "download_url": "https://github.com/craigharman/htmx-ext-no-cache/blob/master/no-cache.js",
+        "description": "Bypass caching for selected HTMX requests.",
+        "doc_url": "https://github.com/craigharman/htmx-ext-no-cache",
         "is_official": true
     },
     "hx-take": {
@@ -153,6 +183,12 @@
         "download_url": "https://raw.githubusercontent.com/bufferhead-code/htmx-ai/main/htmx-ai.js",
         "description": "HTMX-AI allows you to create AI generated webdesign by just providing a prompt via the hx-ai attribute.",
         "doc_url": "https://github.com/bufferhead-code/htmx-ai",
+        "is_official": false
+    },
+    "signalr": {
+        "download_url": "https://github.com/Renerick/htmx-signalr/blob/master/hx-signalr.js",
+        "description": "Provides bidirectional real-time communication via SignalR.",
+        "doc_url": "https://github.com/Renerick/htmx-signalr/blob/master/README.md",
         "is_official": false
     }
 }

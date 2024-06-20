@@ -33,7 +33,7 @@
     <tr>
       <th scope="col">Name</th>
       <th scope="col">Description</th>
-      <th scope="col">Official</th>
+      <th scope="col">Core</th>
       <th scope="col">Download</th>
     </tr>
   </tfoot>

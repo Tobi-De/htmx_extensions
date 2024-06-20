@@ -19,8 +19,12 @@
     }
     </style> -->
     <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  />
+  <link
   rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.colors.min.css"
 />
 </head>
 
@@ -32,6 +36,9 @@
                 href="https://github.com/Tobi-De/htmx_extensions/blob/main/data/extensions.json">github repository</a>
         </p>
         <p>A json view of the data can be found <a href="/extensions.json">here</a></p>
+        <article class="pico-background-blue-800">
+            Updated for htmx 2.0.0
+          </article>
     </header>
     <main class="container">
         {% block content %}{% endblock content%}

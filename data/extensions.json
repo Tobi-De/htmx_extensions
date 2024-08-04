@@ -190,5 +190,11 @@
     "description": "Provides bidirectional real-time communication via SignalR.",
     "doc_url": "https://github.com/Renerick/htmx-signalr/blob/master/README.md",
     "is_official": false
+  },
+    "safe-nonce": {
+    "download_url": "https://raw.githubusercontent.com/MichaelWest22/htmx-extensions/main/src/safe-nonce/safe-nonce.js",
+    "description": "Can be used to improve the security of the application/web-site and help avoid XSS issues by allowing you to return known trusted inline scripts with full nonce support while blocking all other inline scripts via an appropriate Content Security Policy.",
+    "doc_url": "https://github.com/MichaelWest22/htmx-extensions/blob/main/src/safe-nonce/README.md",
+    "is_official": false
   }
 }
